@@ -3,22 +3,27 @@
 This project is an online resume/CV builder that allows users to create professional resumes with ease. The application provides a user-friendly interface to input personal details, achievements, experiences, education, projects, and skills, and generates a formatted resume that can be printed or saved.
 
 ## Project Structure
-   assets/
-    css/
-        main.css
-    images/
-        dublin-resume-templates.avif
-        curriculum-vitae.png
-        feature-1-edf4481d69166ac81917d1e40e6597c8d61aa970ad44367ce78049bf830fbda5.svg
-        feature-2-a7a471bd973c02a55d1b3f8aff578cd3c9a4c5ac4fc74423d94ecc04aef3492b.svg
-        feature-3-4e87a82f83e260488c36f8105e26f439fdc3ee5009372bb5e12d9421f32eabdd.svg
-        visual-0c7080adf17f1f207276f613447c924f667dab34b7ac415cd7ef653172defd0b.svg
-    js/
-        app.js
-        script.js
-index.html
-resume.html
-
+         /project-root
+      │── /assets             # Contains all static files (CSS, images, JavaScript)
+      │   ├── /css           # Stores all stylesheet files
+      │   │   ├── main.css   # Main stylesheet for the project
+      │   │
+      │   ├── /images        # Contains all images and icons used in the project
+      │   │   ├── dublin-resume-templates.avif
+      │   │   ├── curriculum-vitae.png
+      │   │   ├── feature-1.svg
+      │   │   ├── feature-2.svg
+      │   │   ├── feature-3.svg
+      │   │   ├── visual.svg
+      │   │
+      │   ├── /js            # Contains JavaScript files
+      │   │   ├── app.js     # Main JavaScript file
+      │   │   ├── script.js  # Additional script file for interactivity
+      │
+      │── index.html         # Homepage of the project
+      │── resume.html        # Resume page for displaying resume templates
+      
+      
 
 
 - **assets/css/main.css**: Contains the styles for the application.
