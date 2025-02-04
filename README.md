@@ -4,7 +4,7 @@ This project is an online resume/CV builder that allows users to create professi
 
 ## Project Structure
          /project-root
-      │── /assets             # Contains all static files (CSS, images, JavaScript)
+      │── /assets            # Contains all static files (CSS, images, JavaScript)
       │   ├── /css           # Stores all stylesheet files
       │   │   ├── main.css   # Main stylesheet for the project
       │   │
@@ -74,10 +74,6 @@ This project is an online resume/CV builder that allows users to create professi
 - JavaScript
 - jQuery
 - jQuery Repeater
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
